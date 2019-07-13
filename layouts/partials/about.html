@@ -1,0 +1,18 @@
+<div class="post">
+  <div class="post-title">
+    <a href="{{ .Permalink }}">
+      <img src="{{ "/images/post-title-icon.png" | relURL }}" />
+      <div class="post-meta">
+        <time>{{ i18n "postDatetime" .Date }}</time>
+        <h1>{{ .Title }}</h1>
+      </div>
+    </a>
+  </div>
+  <!-- <div class="post-toc">
+    <span class="title">{{ i18n "postToc" }}</span>
+    {{ .TableOfContents }}
+  </div> -->
+  <section class="post-content">
+    {{ .Content }}
+  </section>
+</div>
