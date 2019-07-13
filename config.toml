@@ -25,3 +25,4 @@ pygmentsCodeFences = true # Code Highlighting
 
 [params]
     description = "My Blog about Business, Coding, Data-Analysis and Math"
+    katex = true
