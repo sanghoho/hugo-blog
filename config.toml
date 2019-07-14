@@ -6,11 +6,13 @@ DefaultContentLanguage = "en"
 theme = "hello-programmer"
 disqusShortname = "XXXX"
 googleAnalytics = "UA-XXXXXXXX-X"
-paginate = 7
+paginate = 5
 pygmentsCodeFences = true # Code Highlighting
 # pygmentsStyle = "friendly"
 
 publishdir = "public"
+
+summaryLength = 30
 
 [taxonomies]
   category = "categories"
