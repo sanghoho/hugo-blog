@@ -10,6 +10,8 @@ paginate = 7
 pygmentsCodeFences = true # Code Highlighting
 # pygmentsStyle = "friendly"
 
+publishdir = "public"
+
 [taxonomies]
   category = "categories"
   subcategory = "subcategories"
