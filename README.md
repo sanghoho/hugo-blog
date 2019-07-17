@@ -18,6 +18,8 @@
 
 기본적인 기능이 탄탄하기는 했지만, 저는 수학 수식과 코드를 이용해서 데이터분석과 프로그래밍을 중점적으로 포스팅할 수 있고 개성있는 블로그를 제작하고 싶었기에 다음과 같은 추가 요구사항이 존재했습니다.  
 
+### 초기 요구사항
+
 1. **KaTex** for Math Expression
 2. **Fixed Page** for About Me, etc.
 3. **Pygments** Code Highlighting to replace Highlight.js
@@ -28,11 +30,17 @@
   + Logo and Thumbnail
   + Simple `Css`, `Java Script` Animation
 
+### 추가된 기능
+
+- `<img>` Modal Event
+  + 이미지 클릭시 팝업 형태로 띄워줍니다
 
 ## Update History
 
+- **2019-07-17**
+  + Image Modal Event (Multi & Dynamic)
 - **2019-07-15**
-  + Modal Image Event (Single)
+  + Image Modal Event (Single & Static)
 - **2019-07-12**
   + **Color Scheme** 변경
     - Primary: <font color="#374785">#374785</font>
