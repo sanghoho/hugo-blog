@@ -37,6 +37,9 @@
 
 ## Update History
 
+- **2019-07-18**
+  + **Responsive** Image modal (`Desktop, Notebook, and Mobile)
+  + Markdwon Image Resize and Align with `#center`
 - **2019-07-17**
   + Image Modal Event (Multi & Dynamic)
 - **2019-07-15**

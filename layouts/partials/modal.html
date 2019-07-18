@@ -8,7 +8,8 @@
 <script type="text/javascript">
 
 function setModal(element) {
-  document.getElementById("img01").src = element.src;
+  // Remove #center 
+  document.getElementById("img01").src = (element.src).split("#center")[0];
   document.getElementById("caption").innerHTML = element.alt;
   document.getElementById("myModal").style.display = "block";
 }
@@ -18,7 +19,6 @@ postContent.onclick = e => {
   let clickElement = e.target;
 
   if (clickElement.tagName == "IMG") {
-    console.log(clickElement)
     setModal(clickElement);
   }
 }
