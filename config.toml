@@ -5,10 +5,11 @@ languageCode = "ko-KR"
 DefaultContentLanguage = "en"
 theme = "hello-programmer"
 disqusShortname = "XXXX"
-googleAnalytics = "UA-XXXXXXXX-X"
+googleAnalytics = "UA-144079493-1"
 paginate = 7
 pygmentsCodeFences = true # Code Highlighting
 # pygmentsStyle = "friendly"
+summaryLength = 30
 
 publishdir = "public"
 

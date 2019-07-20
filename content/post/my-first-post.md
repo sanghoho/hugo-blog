@@ -2,8 +2,8 @@
 title: "My First Post"
 date: 2019-07-13T22:46:05+09:00
 draft: false
-categories: ["Coding"]
-subcategories: ["Python"]
+categories: ["data-science"]
+subcategories: ["machine learning"]
 tags: ["python3", "test", "tutorial"]
 cover: "https://blog.lulab.net/images/projects/2019-05-hugo-hello-programmer-theme-v2_projects.png"
 ---

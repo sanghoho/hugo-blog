@@ -514,6 +514,17 @@ img[src$='#center30'] {
   }
 }
 
+/* Subcategories */
+.subcategories a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.subcategories > ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+
 /* Tags */
 .tags {
   padding: 20px;
