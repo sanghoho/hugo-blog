@@ -34,16 +34,20 @@
 
 - `<img>` Modal Event
   + 이미지 클릭시 팝업 형태로 띄워줍니다
+- `Subcategory`
 
 ## Update History
 
+- **2019-07-20**
+  + **Subcategory** Hierarchy
+  + `Google Analytics` code
 - **2019-07-18**
-  + **Responsive** Image modal (`Desktop, Notebook, and Mobile)
+  + **Responsive** `Image modal` (`Desktop, Notebook, and Mobile)
   + Markdwon Image Resize and Align with `#center`
 - **2019-07-17**
-  + Image Modal Event (Multi & Dynamic)
+  + `Image Modal` Event (Multi & Dynamic)
 - **2019-07-15**
-  + Image Modal Event (Single & Static)
+  + `Image Modal` Event (Single & Static)
 - **2019-07-12**
   + **Color Scheme** 변경
     - Primary: <font color="#374785">#374785</font>

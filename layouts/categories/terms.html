@@ -31,7 +31,7 @@
         {{ range $key, $value := $site.Taxonomies.subcategories.Alphabetical }}
         {{ if in $list $value.Name }}
           <li>
-            <a href="{{ $baseurl }}subcategories/{{ $value.Name | urlize }}">
+            <a href="{{ $baseurl }}/subcategories/{{ $value.Name | urlize }}">
               <i class="fa fa-angle-right icon" aria-hidden="true"></i>
               {{ lower $value.Name }} ({{ $value.Count }}{{ i18n "categoriesCount" }})
             </a>
