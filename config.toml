@@ -7,11 +7,16 @@ theme = "hello-programmer"
 disqusShortname = "XXXX"
 googleAnalytics = "UA-144079493-1"
 paginate = 7
-pygmentsCodeFences = true # Code Highlighting
-# pygmentsStyle = "friendly"
 summaryLength = 30
 
 publishdir = "public"
+
+# Code Highlighting
+pygmentsCodeFences = true
+pygmentsUseClassic = false
+pygmentsStyle = "monokai"
+pygmentsOptions = "linenos=table"
+
 
 [taxonomies]
   category = "categories"
