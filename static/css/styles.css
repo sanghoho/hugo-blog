@@ -292,14 +292,33 @@ img[src$='#center30'] {
   text-decoration: none;
   border-bottom: #F76C6C solid 2px;
 }
+
+
+
 .post .post-content code {
   /* background-color: #f1f1f1; */
+  display: inline-block;
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  font-size: 1.2em;
+  color: #F76C6C;
+}
+
+
+.post .post-content table code {
   display: block;
   padding: 1px 3px;
   border-radius: 2px;
-  font-size: .875rem;
+  font-size: 1rem;
   line-height: 2;
+  color: white;
+  background-color: transparent;
+  border: none;
 }
+
 .post .post-content .hljs {
   background-color: rgb(51, 51, 51);
   padding: 8px;
