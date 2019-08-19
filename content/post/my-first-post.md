@@ -26,34 +26,81 @@ Write your post.Write your post.Write your post.Write your post.Write your post.
 
 ## 2. Sample Code
 
-- `python`
+
+
+### 2.1. `python`
+
+abcd
 
 ```python
-
-def say_hello(name):
-  print("Hello {}!".foramt(name))
 
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+  return 'Hello World!'
+
+def say_hello(name):
+  print("Hello {}!".foramt(name))
 
 if __name__ == '__main__':
-    app.run(port=4895)  
-
-
+  app.run(port=4895)  
 
 ```
 
-- `r`
+### 2.2. `R`
+
+R is Well
 
 ```r
 
 say_hello <- function(name) {
-  print(paste0("Hello ", name, "!"))
+
+        print(paste0("Hello ", name, "!"))
+
 }
+
+```
+
+### 2.3. `C#`
+
+C# S
+
+```csharp
+
+using System;
+namespace HelloWorldProgram
+{
+      public class HelloClass
+      {
+          public string sampleString { get; set; }
+          public HelloClass(string a)
+          {
+              InitializeComponent();
+              sampleString = a;
+              HelloWorld();
+          }
+
+          private void HelloWorld()
+          {
+              Console.WriteLine(sampleString);
+          }
+
+      }
+}
+
+
+```
+
+### 2.4. `bash`
+
+```bash
+
+apt-get update
+apt-get upgrade
+
+echo "Hello World"
 
 ```
 

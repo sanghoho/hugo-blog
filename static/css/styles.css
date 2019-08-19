@@ -309,14 +309,20 @@ img[src$='#center30'] {
 
 
 .post .post-content table code {
-  display: block;
+  /* display: block;
   padding: 1px 3px;
   border-radius: 2px;
   font-size: 1rem;
   line-height: 2;
   color: white;
   background-color: transparent;
+  border: none; */
+  font-family: Consolas;
+  background-color: transparent;
+  padding: 1px 3px;
   border: none;
+  /* border-radius: 2px; */
+  font-size: 1.2em;
 }
 
 .post .post-content .hljs {

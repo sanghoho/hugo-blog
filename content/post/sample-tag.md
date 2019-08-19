@@ -33,3 +33,22 @@ func GetTitleFunc(style string) func(s string) string {
 }
 
 {{< / highlight >}}
+
+- `python3`
+
+{{<highlight python "linenos=table">}}
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
+
+def say_hello(name):
+    print("Hello {}!".foramt(name))
+
+if __name__ == '__main__':
+    app.run(port=4895)  
+
+{{</highlight>}}

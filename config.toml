@@ -13,8 +13,9 @@ publishdir = "public"
 
 # Code Highlighting
 pygmentsCodeFences = true
-pygmentsUseClassic = false
-pygmentsStyle = "monokai"
+# pygmentsUseClassic = false
+# pygmentsCodefencesGuessSyntax = true
+# pygmentsStyle = "monokai"
 pygmentsOptions = "linenos=table"
 
 
